@@ -1,4 +1,6 @@
-rows = 7  #toxeri qanaky
+n=int(input())
 
-for i in range(rows, 0, -1): #cikl,vory gnum e 7-ic 0 amen angam -1 anelov
-    print("0" * i) 
+for i  in range(n):
+    for j in range(0,n-i):
+        print('0', sep=' ' ,end= ' ' )
+    print("\n")    
